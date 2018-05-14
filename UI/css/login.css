@@ -1,0 +1,61 @@
+body{
+ background-color:lightgrey; 
+}
+
+.card{
+ border: 0 solid #e7e7e7;
+ border-radius: 5px;
+ background-color: white;	
+}
+
+.form-heading{
+ text-align: center;
+ margin-bottom:30px;
+}
+
+.form-content{
+display: block;
+margin-top: 5px;
+margin-left: auto;
+margin-right: auto;
+text-indent: 0px;
+}
+
+.container{
+margin: 100px auto;
+width: 300px;
+padding: 50px;
+}
+
+.form-item{
+ margin-bottom: 20px;
+ width: 100%;
+ position:relative;
+}
+
+.form{
+ padding:8px;
+ width:100%;
+}
+
+.form-input{
+ border-bottom: solid 1px black;
+ border-top:none;
+ border-left:none;
+ border-right:none;
+ margin-top: 1px;
+}
+
+.form-input:focus{
+ outline:none;
+}
+
+.button input{
+ margin-top: 10px;
+ cursor:pointer;
+ padding: 5px 70px;
+}
+
+div p{
+ text-align: center;
+}
