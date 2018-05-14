@@ -1,0 +1,78 @@
+
+body{
+  background-image : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/tools-for-building-construction_4460x4460.jpg);
+  background-size: cover  ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position : center;
+}
+
+.main-nav{
+  float : right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.main-nav li{
+  display: inline-block;
+}
+
+.main-nav li a{
+  color: white;
+  text-decoration: none;
+  padding:5px 20px;
+  font-size:15px;
+}
+
+.main-nav li a:hover{
+  border: 1px solid white;
+}
+
+.row{
+  max-width:1200px;
+  margin:10px;
+  position: absolute;
+  top: 60px ;
+  margin-left: 400px;
+}
+
+.content{
+ width: 1300px ;
+ margin-left: auto ;
+ margin-right: auto ;
+}
+
+h1{
+  color: white;
+  font-size:70px;
+  text-align: center;
+  margin-top: 350px;
+}
+
+.button{
+  margin-top: 30px;
+  margin-left:490px;
+}
+
+.btn{
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  font: 13px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.btn-one{
+  background-color: green;
+}
+
+.btn-one:hover{
+  background-color: darkgreen;
+}
+
+.btn-two:hover{
+  background-color: darkorange;
+  transition: all 0.5s ease-in;
+}
