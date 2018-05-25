@@ -1,4 +1,4 @@
-var express = require("express");
+const express = require("express");
 const app = express();
 const jsonParser = require("body-parser").json;
 
@@ -26,6 +26,6 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
  console.log("The app is listening on port 3000")
 });
