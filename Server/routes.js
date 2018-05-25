@@ -9,7 +9,7 @@ function validateRequest(re){
 		requestType: Joi.string().min(4)
 	 }
 
-	 return Joi.validate(re, requestSchema)
+	 return Joi.validate(re, requestSchema);
 }
 
 //Get all the requests of a user
@@ -59,8 +59,8 @@ router.put("/:id", (req, res) => {
     if(checkRequest.error){
 		res.status(400).send(checkRequest.error.details[0].message);
 	}
-	request.item = request.body.item;
-	request.requestType = request.body.requestType;
+	request.item = req.body.item;
+	request.requestType = req.body.requestType;
 
 	res.send(requests);
 });
@@ -75,7 +75,7 @@ router.delete("/:id", (req, res) => {
     else { 
 	const index = requests.indexOf(request);
 	requests.splice(index, 1);
-	res.send({requests})
+	res.send(requests)
 }
 });
 
